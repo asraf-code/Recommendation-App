@@ -8,19 +8,22 @@
 
 body {
   background-image: url(https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg);
-  background-size: "cover";
+  background-size: cover 120%;
+  background-position: center;
   background-repeat: no-repeat;
   background-position: -5vh;
   background-blend-mode: multiply;
-  background-color: grey;
+  background-color: #383838;
 }
 
 h1 {
+  margin-top: 15rem;
   color: orangered;
 }
 
 p {
   color: orangered;
+  text-align: ;
 }
 
 #click {
@@ -35,6 +38,7 @@ p {
 
 .lineBreak {
   margin: 1rem 0rem;
+  width: 80%;
 }
 
 #boxOffice {
@@ -43,8 +47,9 @@ p {
   margin: 1rem;
   border-radius: 0.5rem;
   border: 2px solid orange;
-  font-size: large;
+  font-size: larger;
   color: orangered;
+  font-weight: bold;
 }
 
 #list {
