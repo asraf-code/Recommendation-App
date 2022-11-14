@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./styles.css";
-const button = ["Thriller", "Comedy", "Fantasy", "Drama"];
+
 
 var movieArchive = {
   Thriller: {
@@ -23,6 +23,9 @@ var movieArchive = {
     rating: ["6.9/10", "6.8/10", "6.5/10"]
   }
 };
+
+const button = Object.keys(movieArchive);
+//["Thriller", "Comedy", "Fantasy", "Drama"];
 
 export default function App() {
   var [movieGenre, setMovieGenre] = useState("Thriller");
