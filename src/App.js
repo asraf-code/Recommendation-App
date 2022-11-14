@@ -58,7 +58,7 @@ export default function App() {
           return (
             <li key={item} id="boxOffice" style={{ listStyle: "none" }}>
               {item}
-              <p> </p>
+              <p>  </p>
               <div id="rating" style={{ paddingTop: "2rem" }}>
                 {" "}
                 {"⭐ "}
