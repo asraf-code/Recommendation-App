@@ -4,7 +4,7 @@ const button = ["Thriller", "Comedy", "Fantasy", "Drama"];
 
 var movieArchive = {
   Thriller: {
-    movieName: ["Emily th Criminal", "Cargo", "The Autopsy of Jane Doe"],
+    movieName: ["Emily the Criminal", "Cargo", "The Autopsy of Jane Doe"],
     rating: ["6.7/10", "6.3/10", "6.8/10"]
   },
 
