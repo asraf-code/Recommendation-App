@@ -1,2 +1,5 @@
 # Recommendation-App
-Created with CodeSandbox
+
+A app to recommend some of the amazing Indie movies made. 
+
+Built using ReactJs
